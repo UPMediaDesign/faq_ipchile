@@ -1,0 +1,178 @@
+@charset "utf-8";
+/*
+Theme Name: Preguntas Frecuentes IPCHILE
+Theme URL: http://upmedia.cl/apps/faq_ipchile/
+Description: Tema para Preguntas Frecuentes IPCHILE.
+Version: 1.0
+Author: Upmedia (Carlos 'Chasca' Peña)
+Author URL: http://upmedia.cl
+*/
+
+*{ padding: 0px; margin: 0px;}
+
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+ 
+.clearfix { display: inline-block;}
+ 
+html[xmlns] .clearfix { display: block;}
+ 
+* html .clearfix { height: 1%;}
+
+.left, .izq{float: left;}
+.right, .der{float:right;}
+.clear{ clear:both}
+
+.alignleft { display: inline;	float: left; margin-right: 15px; }
+.alignright { display: inline; float: right; margin-left: 15px;}
+.aligncenter {	clear: both; display: block; margin-left: auto;	margin-right: auto; }
+
+strong , b{ font-weight:700}
+em , i{font-style:italic;}
+small{font-size:10px;}
+
+.separator{padding:15px 0;}
+.miniseparator{ padding-bottom:10px;}
+.microseparator{padding-bottom:5px;}
+.border { border-bottom: 1px solid #ccc; padding: 15px 15px 0 15px; margin-bottom: 15px;}
+
+body{font-family: raleway, helvetica, arial, sans-serif , sans-serif; ;}
+p { font-family: helvetica, arial , sans-serif;  color:#323232;}
+
+main .container p , main .megacontainer p{ font-family:raleway, helvetica, arial, sans-serif; font-size:16px; line-height:160%; color:#5d5d5d; padding-bottom: 20px}
+
+.megacontainer {padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;max-width:1250px;}
+.container{ max-width:1170px;}
+
+.mobile{ display:none}
+@media screen and (max-width:767px){ 
+	.desktop{ display: none}
+	.mobile{ display: inline-block}   .hide-on-mobile{display:none;}
+}
+
+.col-md-20{ width:20%; float: left}
+
+.col-esp{padding: 0px;}
+
+blockquote{ background-color:#f2f2f2; border-left-color:#ccc }
+blockquote li {list-style-position: inside !important;}
+.callout { background-color: #f2f2f2;padding: 20px;border-left: 6px solid #e21717;border-bottom: 1px solid #ccc;}
+.modal{ z-index:999999999;}
+
+.modal.modal-wide .modal-dialog { width: 90%;}
+.modal-wide .modal-body { overflow-y: auto;}
+
+h1, h2 , h3{ font-family: Raleway , helvetica, arial, sans-serif; text-transform:uppercase}
+h3{ font-weight:900; color:#155980}
+h4{ font-family: Raleway , helvetica, arial , sans-serif}
+h4, .h4, h5, .h5, h6, .h6 { margin-top:0px;}
+
+
+/* Web Fonts */
+@font-face {
+    font-family: 'oswald_boldbold';
+    src: url('fonts/oswald-bold-webfont.eot');
+    src: url('fonts/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald-bold-webfont.woff2') format('woff2'),
+         url('fonts/oswald-bold-webfont.woff') format('woff'),
+         url('fonts/oswald-bold-webfont.ttf') format('truetype'),
+         url('fonts/oswald-bold-webfont.svg#oswald_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oswaldbook';
+    src: url('fonts/oswald-webfont.eot');
+    src: url('fonts/oswald-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald-webfont.woff2') format('woff2'),
+         url('fonts/oswald-webfont.woff') format('woff'),
+         url('fonts/oswald-webfont.ttf') format('truetype'),
+         url('fonts/oswald-webfont.svg#oswaldbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oswald_lightlight';
+    src: url('fonts/oswald-light-webfont.eot');
+    src: url('fonts/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald-light-webfont.woff2') format('woff2'),
+         url('fonts/oswald-light-webfont.woff') format('woff'),
+         url('fonts/oswald-light-webfont.ttf') format('truetype'),
+         url('fonts/oswald-light-webfont.svg#oswald_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Header */
+.mtop30{margin-top:30px;}
+
+.bg-girl{background: url(images/bg-girl.png); background-repeat: no-repeat; background-size:100%;height: 350px;}
+
+.content-inside{padding: 35px 0 0;}
+.content-inside h1{font-family: 'oswaldbook'; font-size: 38px; text-align: left; line-height: 1.2em; color:#ffffff; background:#0061ae; padding:5px; }
+.content-inside p{font-family:'oswald_lightlight'; font-size: 19px; text-align:left; line-height:1.3em; color:#ffffff;}
+
+.downly{background-image: url(images/bajada.png); border: none; border-radius: 50%; width: 45px; height: 45px; background-repeat: no-repeat; background-color: transparent; background-position: 50%; }
+.downly:hover {opacity: .7; }
+
+section.arrow:before {content: ''; background-color: #f7f7f7; border-bottom: 80px solid #FFFFFF; transform: skewY(-5deg); -webkit-transform: skewY(-5deg); -moz-transform: skewY(-5deg); -ms-transform: skewY(-5deg); -o-transform: skewY(-5deg); display: block; width: 100%; position: relative; top: 280px;}
+
+/* Contenido Preguntas */
+.preguntas{height:105px;}
+.nav-tabs{background:#0061ae;}
+.col-md-9.col-md-offset-2{padding-left:0; padding-right:0;}
+
+.nav-tabs li{width:33.3333333%; margin-bottom:0;}
+.nav-tabs>li>a{font-family:'oswaldbook'; font-size: 20px; color:#ffffff; border-top: 5px solid #003259 !important; margin-right:0; border:0px solid transparent; border-radius:0; text-align: center;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {color: #fff; cursor: default; background-color: #004882; border: none; border-top: 5px solid #003259;}
+
+.nav>li>a:focus, .nav>li>a:hover {background-color:#004882; }
+
+.tab-content{background: #efefef; padding: 10px;}
+
+.tab-pane li{list-style:none; text-align:left; cursor:pointer;}
+.tab-pane li h1{font-size:16px; color:#0061ae; font-family:'oswaldbook'; line-height: 2.3em;}
+.tab-pane li p{font-size:14px; color:#777777;font-family:Arial, sans-serif;}
+
+/* Modal preguntas */
+.modal-dialog {width: 600px; margin: 390px auto; }
+
+.modal-header .close{margin-top:-12px;}
+.modal-header {min-height: 44.43px; padding: 15px; background: #1aa0d3; border-radius: 5px 5px 0 0; border:none; }
+
+.close{color:#fff; font-size:35px; font-weight: lighter; opacity: 1 !important;}
+.close:focus, .close:hover {color: #f2f2f2;}
+
+span.badge{float: left; background: #1aa0d3; font-family: 'oswald_boldbold'; font-size: 19px; padding: 10px; clear: both; width: 40px; height: 40px;  border-radius: 50%; margin-right: 8px; }
+.modal-body h1 {font-size: 16px; color: #0061ae; font-family: 'oswaldbook'; line-height: .3em; padding-bottom: 20px; }
+.modal-body p{line-height: 1.6em;}
+
+/* Clases Botonera Servicios */
+/* Background servicios */
+.dae{background:#4662a2 url(images/dae.png); float:left;  background-repeat: no-repeat; background-position:5%;}
+.oae{background:#88be2a url(images/oae.png); float:left; background-repeat: no-repeat; background-position:5%;}
+.becas{background:#9d2ab3 url(images/becas.png); float:left;  background-repeat: no-repeat; background-position:5%;}
+.biblio{background:#87c3d4 url(images/biblio.png); float:left; background-repeat: no-repeat; background-position:5%;}
+
+/* Background imagenes */
+h2.title-other{font-family:'oswald_boldbold'; color:#0061ae; text-align: center; font-size:25px; line-height:1.6em;}
+
+.service-area {background: #f6f6f6; padding: 10px; padding-bottom: 30px;}
+.service{border-radius:5px; padding:10px; border-radius: 5px; margin-left: .5%; width: 24%; margin-right: .5%; }
+.service a, a.dae, a.oae, a.becas, a.biblio{text-align: left; padding: 10px 40px; color:#ffffff; font-family:'oswaldbook';}
+.service img{float:left;}
+
+/* Otras sugerencias */
+.other-area{margin-top:30px;}
+.other-area h4{  color: #0061ae; font-family: 'oswald_boldbold'; font-size: 17px; margin-left: 15px; margin-bottom: 15px; margin-top:10px;} 
+
+.others h4{font-family:'oswaldbook'; color:#777777; text-align:left; font-size: 15px; line-height:1.4em; margin-left:0;}
+.others a{font-family; arial, sans-serif;color:#0061ae; font-weight:bold; font-size:15px;}
+
+
+
