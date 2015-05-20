@@ -109,26 +109,30 @@ h4, .h4, h5, .h5, h6, .h6 { margin-top:0px;}
 
 
 /* Header */
+.container{max-width: 810px !important;}
+.container-fluid {padding-right: 0 !important; padding-left: 0 !important ;margin-right: auto; margin-left: auto; width: 750px;}
 .mtop30{margin-top:30px;}
 
 .bg-girl{background: url(images/bg-girl.png); background-repeat: no-repeat; background-size:100%;height: 350px;}
 
 .content-inside{padding: 35px 0 0;}
-.content-inside h1{font-family: 'oswaldbook'; font-size: 38px; text-align: left; line-height: 1.2em; color:#ffffff; background:#0061ae; padding:5px; }
+.content-inside h1{font-family: 'oswaldbook'; font-size: 30px; text-align: left; line-height: 1.2em; color:#ffffff; background:#0061ae; padding:5px; width:71%; }
 .content-inside p{font-family:'oswald_lightlight'; font-size: 19px; text-align:left; line-height:1.3em; color:#ffffff;}
 
-.downly{background-image: url(images/bajada.png); border: none; border-radius: 50%; width: 45px; height: 45px; background-repeat: no-repeat; background-color: transparent; background-position: 50%; }
+.downly{background-image: url(images/bajada.png); border: none; border-radius: 50%; width: 45px; height: 45px; background-repeat: no-repeat; background-color: transparent; background-position: 50%; position: relative; left: 45px;}
 .downly:hover {opacity: .7; }
 
-section.arrow:before {content: ''; background-color: #f7f7f7; border-bottom: 80px solid #FFFFFF; transform: skewY(-5deg); -webkit-transform: skewY(-5deg); -moz-transform: skewY(-5deg); -ms-transform: skewY(-5deg); -o-transform: skewY(-5deg); display: block; width: 100%; position: relative; top: 280px;}
+section.arrow:before {  content: ''; background-color: #fff; border-bottom: 80px solid #FFFFFF; transform: skewY(-5deg); -webkit-transform: skewY(-5deg); -moz-transform: skewY(-5deg); -ms-transform: skewY(-5deg); -o-transform: skewY(-5deg); display: block; width: 100%; position: relative; top: 240px; height: 180px;}
 
 /* Contenido Preguntas */
-.preguntas{height:105px;}
+/*.preguntas{height:105px;}*/
 .nav-tabs{background:#0061ae;}
-.col-md-9.col-md-offset-2{padding-left:0; padding-right:0;}
+.col-xs-12, .col-xs-12[role="tabpanel"]{padding-left:0 !important; padding-right:0 !important;}
+
 
 .nav-tabs li{width:33.3333333%; margin-bottom:0;}
-.nav-tabs>li>a{font-family:'oswaldbook'; font-size: 20px; color:#ffffff; border-top: 5px solid #003259 !important; margin-right:0; border:0px solid transparent; border-radius:0; text-align: center;}
+.nav-tabs>li>a{font-family:'oswaldbook'; font-size: 20px; color:#ffffff; border-top: 5px solid #003259 !important; margin-right:0; border:0px solid transparent; border-radius:0; text-align: center; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; transition: all 0.5s ease; }
+
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {color: #fff; cursor: default; background-color: #004882; border: none; border-top: 5px solid #003259;}
 
 .nav>li>a:focus, .nav>li>a:hover {background-color:#004882; }
@@ -154,25 +158,58 @@ span.badge{float: left; background: #1aa0d3; font-family: 'oswald_boldbold'; fon
 
 /* Clases Botonera Servicios */
 /* Background servicios */
-.dae{background:#4662a2 url(images/dae.png); float:left;  background-repeat: no-repeat; background-position:5%;}
-.oae{background:#88be2a url(images/oae.png); float:left; background-repeat: no-repeat; background-position:5%;}
-.becas{background:#9d2ab3 url(images/becas.png); float:left;  background-repeat: no-repeat; background-position:5%;}
-.biblio{background:#87c3d4 url(images/biblio.png); float:left; background-repeat: no-repeat; background-position:5%;}
+.dae{background:#4662a2 url(images/dae.png); float:left;  background-repeat: no-repeat; background-position:5%; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; transition: all 0.5s ease; }
+.dae:hover{background: #294483 url(images/dae.png); float: left; background-repeat: no-repeat; background-position: 5%; }
+.oae{background:#88be2a url(images/oae.png); float:left; background-repeat: no-repeat; background-position:5%; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; transition: all 0.5s ease; }
+.oae:hover{background: #5D9300 url(images/oae.png); float: left; background-repeat: no-repeat; background-position: 5%; }
+.becas{background:#9d2ab3 url(images/becas.png); float:left;  background-repeat: no-repeat; background-position:5%; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; transition: all 0.5s ease; }
+.becas:hover{background: #671976 url(images/becas.png); float: left; background-repeat: no-repeat; background-position: 5%;} 
+.biblio{background:#87c3d4 url(images/biblio.png); float:left; background-repeat: no-repeat; background-position:5%; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; transition: all 0.5s ease; }
+.biblio:hover{background: #6EA0AE url(images/biblio.png); float: left; background-repeat: no-repeat; background-position: 5%; }
 
 /* Background imagenes */
 h2.title-other{font-family:'oswald_boldbold'; color:#0061ae; text-align: center; font-size:25px; line-height:1.6em;}
 
 .service-area {background: #f6f6f6; padding: 10px; padding-bottom: 30px;}
 .service{border-radius:5px; padding:10px; border-radius: 5px; margin-left: .5%; width: 24%; margin-right: .5%; }
-.service a, a.dae, a.oae, a.becas, a.biblio{text-align: left; padding: 10px 40px; color:#ffffff; font-family:'oswaldbook';}
+.service a, a.dae, a.oae, a.becas, a.biblio{text-align: left; padding: 10px 40px; color:#ffffff; font-family:'oswaldbook'; font-size: 13px;}
 .service img{float:left;}
 
 /* Otras sugerencias */
 .other-area{margin-top:30px;}
 .other-area h4{  color: #0061ae; font-family: 'oswald_boldbold'; font-size: 17px; margin-left: 15px; margin-bottom: 15px; margin-top:10px;} 
 
-.others h4{font-family:'oswaldbook'; color:#777777; text-align:left; font-size: 15px; line-height:1.4em; margin-left:0;}
-.others a{font-family; arial, sans-serif;color:#0061ae; font-weight:bold; font-size:15px;}
+.others h4{font-family:'oswaldbook'; color:#777777; text-align:left; font-size: 13px; line-height:1.4em; margin-left:0;}
+.others a{color: #0061ae; font-weight: bold; font-size: 14px; background: url(images/arrow.png); background-repeat: no-repeat; background-position: 59px; text-align: left; padding-right: 25px; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; transition: all 0.5s ease; }
+
+.faqgo{  background-color: #1aa0d3 !important; font-family: 'oswaldbook'; text-align: center; display: table; margin: 30px auto; float: none; padding: 8px; color: #ffffff; font-size: 25px; letter-spacing: 1px; border: none; padding:10px; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; transition: all 0.5s ease; }
+.faqgo:hover{background-color: #1281AB !important;}
+
+/* Footer */
+.blue-footer{background:#0061ae; }
+
+.logos{display: block; margin: 30px auto 0px; width: 36%;}
+.logos a{margin: 10px; clear: both;}
+
+.sociales.fl ul{float: left;margin-bottom: 30px;}
+.sociales.fl li {list-style: none; float:left; display:block;}
+.sociales.fl li a span{ color: #ffffff !important; font-size: 15px; background: #1AA0D3; border-radius: 50%; width: 30px; height: 28px; text-align: center; padding: 7px; margin-left: 7px; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; transition: all 0.5s ease; } 
+.sociales.fl li a span:hover{background:#1281AB !important;}
+.cta-ip{float:left;}
+.cta-ip a{color: #00285d; font-family: 'oswald_lightlight'; font-size: 17px; background: #ffdd00; padding: 5px 10px; border-radius: 50px; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; transition: all 0.5s ease; } 
+.cta-ip a:hover{background:#E0C301; text-decoration: none;}
+.cta-ip a strong {font-family: 'oswaldbook'; font-size: 20px; text-transform: uppercase;}
+
+.invite-ip h3{font-size:28px; color:#ffffff; text-align:center; padding: 0 0 15px; font-family:'oswaldbook';}
+strong.yellow{color:#ffde00; font-size: 28px;}
+
+.credits{clear: both; margin:40px auto 30px; display: block;}
+.credits span{text-align:center; font-family:arial, helvetica, sans-serif; color: #fff; font-size:12px; display: block;}
+.modal-backdrop{background:#0061ae; opacity:.8;}
+
+
+
+
 
 
 

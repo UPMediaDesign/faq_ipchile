@@ -25,11 +25,11 @@ add_action( 'init', 'register_my_menu' );
 <?php 
 function call_scripts() {
 	wp_deregister_script('jquery');
-	wp_register_script('jquery', 'http://code.jquery.com/jquery-1.10.0.min.js');
-    wp_register_script('core', get_template_directory_uri() . '/js/core.js');
+	wp_register_script('jquery', 'https://code.jquery.com/jquery-1.10.0.min.js');
+    //wp_register_script('core', get_template_directory_uri() . '/js/core.js');
 
     wp_enqueue_script('jquery');
-    wp_enqueue_script('core');
+    //wp_enqueue_script('core');
 }    
  
 add_action('wp_enqueue_scripts', 'call_scripts');

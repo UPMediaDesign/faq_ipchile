@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"os",
+				"oswaldbook"
+			],
+			[
+				"oswald",
+				"oswald_lightlight"
+			],
+			[
+				"sugern",
+				"sugerencias"
+			],
+			[
+				"url",
+				"urlsug"
+			],
+			[
+				"background",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"modal",
+				"modal-body"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"content",
+				"content-inside"
+			],
+			[
 				"backgr",
 				"background"
 			],
@@ -12,24 +72,12 @@
 				"label	Tag"
 			],
 			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"padding",
-				"padding-right"
-			],
-			[
 				"navbar",
 				"navbar-collapse"
 			],
 			[
 				"min",
 				"min-width"
-			],
-			[
-				"background",
-				"background-position"
 			],
 			[
 				"logo",
@@ -68,14 +116,6 @@
 				"var_dump"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
-				"content",
-				"content-coment"
-			],
-			[
 				"padding-",
 				"padding-bottom"
 			],
@@ -90,10 +130,6 @@
 			[
 				"line-gree",
 				"line-green-1"
-			],
-			[
-				"text",
-				"textarea"
 			],
 			[
 				"max",
@@ -126,10 +162,6 @@
 			[
 				"vide",
 				"videos-ctrl"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"fi",
@@ -186,10 +218,6 @@
 			[
 				"backg",
 				"background-size"
-			],
-			[
-				"fon",
-				"font-family"
 			],
 			[
 				"borde",
@@ -371,15 +399,15 @@
 			"file": "wp-content/themes/faq_theme/index.php",
 			"settings":
 			{
-				"buffer_size": 1560,
-				"line_ending": "Unix"
+				"buffer_size": 4313,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "wp-content/themes/faq_theme/footer.php",
 			"settings":
 			{
-				"buffer_size": 896,
+				"buffer_size": 1648,
 				"line_ending": "Unix"
 			}
 		},
@@ -387,7 +415,7 @@
 			"file": "wp-content/themes/faq_theme/header.php",
 			"settings":
 			{
-				"buffer_size": 2444,
+				"buffer_size": 2690,
 				"line_ending": "Unix"
 			}
 		},
@@ -395,15 +423,15 @@
 			"file": "wp-content/themes/faq_theme/functions.php",
 			"settings":
 			{
-				"buffer_size": 7411,
-				"line_ending": "Unix"
+				"buffer_size": 7416,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "wp-content/themes/faq_theme/style.css",
 			"settings":
 			{
-				"buffer_size": 2944,
+				"buffer_size": 11387,
 				"line_ending": "Unix"
 			}
 		}
@@ -579,6 +607,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"modal backdrop",
+			"md",
 			"picBG",
 			"Otras Noticias",
 			"imagenGrande",
@@ -704,9 +734,7 @@
 			"#header .nav-toggle",
 			"ul.products li.product img",
 			"navigation",
-			"wrapper",
-			"footer-wrap",
-			"#header #navigation"
+			"wrapper"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -724,7 +752,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -751,7 +779,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 271.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -761,15 +789,15 @@
 					"file": "wp-content/themes/faq_theme/index.php",
 					"settings":
 					{
-						"buffer_size": 1560,
+						"buffer_size": 4313,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1203,
-								1203
+								3896,
+								3896
 							]
 						],
 						"settings":
@@ -778,10 +806,12 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 776.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -791,15 +821,15 @@
 					"file": "wp-content/themes/faq_theme/footer.php",
 					"settings":
 					{
-						"buffer_size": 896,
+						"buffer_size": 1648,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								287,
-								287
+								860,
+								860
 							]
 						],
 						"settings":
@@ -823,15 +853,15 @@
 					"file": "wp-content/themes/faq_theme/header.php",
 					"settings":
 					{
-						"buffer_size": 2444,
+						"buffer_size": 2690,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2186,
-								2186
+								1203,
+								1203
 							]
 						],
 						"settings":
@@ -845,7 +875,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 136.0,
+						"translation.y": 346.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -853,7 +883,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -861,15 +891,15 @@
 					"file": "wp-content/themes/faq_theme/functions.php",
 					"settings":
 					{
-						"buffer_size": 7411,
+						"buffer_size": 7416,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1672,
-								1672
+								0,
+								0
 							]
 						],
 						"settings":
@@ -893,15 +923,15 @@
 					"file": "wp-content/themes/faq_theme/style.css",
 					"settings":
 					{
-						"buffer_size": 2944,
+						"buffer_size": 11387,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2411,
-								2411
+								11380,
+								11380
 							]
 						],
 						"settings":
@@ -910,12 +940,12 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 361.0,
+						"translation.y": 3001.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
